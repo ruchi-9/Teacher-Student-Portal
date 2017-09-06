@@ -1,0 +1,79 @@
+ <html>
+        <head>
+             <title>welcome to bkbiet Teacher panel </title>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <link rel="stylesheet" href="css/bootstrap.min.css">
+             <script src="jquery/jquery-3.1.1.min.js"></script>
+             <script src="js/bootstrap.min.js"></script>
+             <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+             <script src="scripts/time.js"></script>
+             <script>
+                 function abc()
+                 {
+                     
+                 var x = document.getElementById("ab");
+                 var y =x.text;
+                 document.cookie = "subject="+y;
+                 document.write(y);               
+                 }
+             </script>
+             <style type="text/css">
+        #navPanel {
+        max-width:300px;
+        }
+
+    .panel-title > a {
+        color: inherit;
+        display:block;
+        text-decoration:none;
+    } 
+
+    .panel-body {
+        padding: 0px;
+    }
+    .list-group {
+        padding-left: 0;
+        margin-bottom: 0px;
+    }
+
+     .glyphicon-plus:before { 
+       content: "\2212";
+    }
+
+    .collapsed .glyphicon-plus:before {
+        content: "\2b";
+    }
+            </style>
+        </head>
+        <body onload="startTime()">
+            <div class="container">
+                <div class="row" style=" min-height: 150px;background-color: #1b6d85;padding: 0px; border-radius: 15px;">
+                    <div>
+                    <div class="col-lg-2" style="text-align: right; float: left"> 
+                            <p id="time" style="padding-top:30px; padding-bottom: 0px; color: #fff;font-variant:small-caps; font-style:normal;  "></p>
+                            <p id="txt" style="color: #fff; padding-top: 0px ;font-variant:small-caps; font-style:normal;" ></p>
+
+                        </div>
+
+                        <div class="col-lg-8" style="text-align: center"> <h1 style="color: #fff ;font-variant:small-caps; font-style:normal; ">Teacher-Student Portal</h1>
+                          <p> B.K. Birla Institute Of Engineering and Technology</p>
+                          </p>
+                    </div>
+                     <div class="col-lg-2" style="background:transparent; text-align: center; float: right " >
+                         <p style=" color: white">
+                             <br/>
+                             Name : Sumit kumar <br />
+                             Login Id : 9694838807<br/>
+                             <br/><br/>
+                             <a href="teacher_login.html" style=" color: white">Logout</a>
+                         </p>       
+                     </div>
+                    </div>
+                </div>
+
+            </div>
+        </body>
+ </html>
+ 

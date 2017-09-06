@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+    <html>
+        <head>
+             <title>welcome to bkbiet Teacher panel </title>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <link rel="stylesheet" href="css/bootstrap.min.css">
+             <script src="jquery/jquery-3.1.1.min.js"></script>
+             <script src="js/bootstrap.min.js"></script>
+             <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+             <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+             <script src="scripts/time.js"></script>
+            
+             <style type="text/css">
+        
+    .vertical-menu {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.vertical-menu a {
+    background-color: #1b6d85;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+            </style>
+        </head>
+        <body onload="startTime()">
+            <div class="container">
+                <div class="row" style=" min-height: 150px;background-color: #1b6d85;padding: 0px; border-radius: 15px;">
+                    <div>
+                    <div class="col-lg-2" style="text-align: right; float: left"> 
+                            <p id="time" style="padding-top:30px; padding-bottom: 0px; color: #fff;font-variant:small-caps; font-style:normal;  "></p>
+                            <p id="txt" style="color: #fff; padding-top: 0px ;font-variant:small-caps; font-style:normal;" ></p>
+
+                        </div>
+
+                        <div class="col-lg-8" style="text-align: center"> <h1 style="color: #fff ;font-variant:small-caps; font-style:normal; ">Teacher-Student Portal</h1>
+                          <p> B.K. Birla Institute Of Engineering and Technology</p>
+                          </p>
+                    </div>
+                     <div class="col-lg-2" style="background:transparent; text-align: center; float: right " >
+                         <p style=" color: white">
+                             <br/>
+                             Name : Sumit kumar <br />
+                             Login Id : 9694838807<br/>
+                             <br/><br/>
+                             <a href="teacher_login.html" style=" color: white">Logout</a>
+                         </p>       
+                     </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container" style="padding: 0px; margin:auto; padding-top: 2px; border-radius: 15px;">
+           <div class="col-md-3" style=" text-align: center;background-color: #1b6d85;min-height: 500px; border: 1px white solid; border-radius: 15px ">
+   
+               <div class="vertical-menu" style="">
+                <a href="#" class="active">Home</a>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+              </div>
+            
+            
+            </div>
+                 <div class="col-md-6" style="min-height: 500px; background-color: #1b6d85;  margin: 0px; border: 1px white solid; border-radius: 15px">
+
+                     <div style="text-align: center">
+                         <h4>Privious Notes</h4></div>
+                    <div style=" min-height: 200px; max-height: 200px; overflow-y: auto; overflow-x: hidden">
+                    <table class="table table-hover" style=" background-color: white">
+      <thead>
+        <tr>
+          <th>S_No</th>
+          <th>Topic</th>
+          <th>Update Date</th>
+          <th>Update Time</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>subject1</td>
+          <td>10/11/2016</td>
+          <td>9:28 am</td>
+          <td><p><input type="button" value="View">   <input type="button" value="Delete"></p> </td>
+
+        </tr>
+
+      </tbody>
+    </table>
+                     </div>
+                     <br/>
+                     <div style=" text-align: center">
+
+                     <h4>Update New Notes</h4>
+                     <br />
+                     <form action="UploadServlet" method="post" enctype="multipart/form-data">
+                         <p style=" text-align:center"> Select a file to upload: <input type="file" name="file" size="50"  /> Topic : <input type="text" id="topic">
+                     </p><br />
+                     <p>  <input type="submit" value="Upload File"  style=" alignment-adjust:  central"/> 
+                     </p></form>
+                     </div>
+                 </div>
+                    <div class="col-md-3" style=" text-align: center;background-color: #1b6d85;min-height: 500px; border: 1px white solid; border-radius: 15px">
+                        <h4 id="aa">  Chatting </h4>
+                    </div>
+              </div>
+
+        </body>
+    </html>
