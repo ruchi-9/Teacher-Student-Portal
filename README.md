@@ -24,6 +24,8 @@ This is basically designed for facilitating students of our college as here the 
 - Admin screen after login
 
 ![text](https://github.com/ruchi-9/Teacher-Student-Portal/blob/master/Screenshots/home%20page.PNG)
+ 
+ Remaining screeshot is present the report file.
 
 ## Limitation
  - The uploading of notes is work only on the pdf format.
