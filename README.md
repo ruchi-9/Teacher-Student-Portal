@@ -1,6 +1,6 @@
 # Teacher-Student-Portal
 The main objective for the development of an application for facilitating the students so that without wasting their time they can get all the study material without visiting again and again to teachers and clear their doubt by asking the query to the subject teacher.
-This is basically designed for facilitating students of our college as here the Student’s information is stored according to their College ID and College ID includes the college identity.
+This is basically designed for facilitating students of our college as here the Student’s information is stored according to their College ID.
 
 - DFD 0-Level 
 
